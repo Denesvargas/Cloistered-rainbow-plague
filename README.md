@@ -1,5 +1,5 @@
 # Cloistered-rainbow-plague
-Um ambiente simulado de colisões elásticas bidimensionais e uma contaminação aleatória de cores
+Um ambiente simulado de colisões elásticas bidimensionais e uma contaminação aleatória de cores.
 
 Para executar apenas abra o projeto no codeblocks, compile e execute o mesmo.
 
