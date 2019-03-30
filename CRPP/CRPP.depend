@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1553976683 source:c:\users\user\desktop\cloistered rainbow plague physics\crpp\src\controls.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"gl_canvas2d.h"
+	"controls.h"
+
+1553978084 c:\users\user\desktop\cloistered rainbow plague physics\crpp\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 c:\users\user\desktop\cloistered rainbow plague physics\crpp\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 c:\users\user\desktop\cloistered rainbow plague physics\crpp\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426358040 c:\users\user\desktop\cloistered rainbow plague physics\crpp\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1553975859 c:\users\user\desktop\cloistered rainbow plague physics\crpp\src\controls.h
+	<stdio.h>
+	<stdlib.h>
+
+1553978084 source:c:\users\user\desktop\cloistered rainbow plague physics\crpp\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+	<time.h>
+	<iostream>
+
+1553980390 source:c:\users\user\desktop\cloistered rainbow plague physics\crpp\src\main_cpp.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"gl_canvas2d.h"
+	"controls.h"
+	"Bola.h"
+	"Relogio.h"
+
+1490704699 c:\users\user\desktop\cloistered rainbow plague physics\crpp\src\bola.h
+	"gl_canvas2d.h"
+
+1193146156 c:\users\user\desktop\cloistered rainbow plague physics\crpp\src\relogio.h
+	"gl_canvas2d.h"
+
+1168267666 source:c:\users\user\desktop\cloistered rainbow plague physics\crpp\src\relogio.cpp
+	"Relogio.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
