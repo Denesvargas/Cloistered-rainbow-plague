@@ -19,7 +19,7 @@ Relogio *r = NULL;
 const int Num_balls = 40;
 
 int LARGURA_TELA = 800, ALTURA_TELA = 600;
-Ball balls[5];
+Ball balls[Num_balls];
 int   opcao  = 50;
 float global = 0;
 
