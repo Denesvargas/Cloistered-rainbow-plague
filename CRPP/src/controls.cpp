@@ -13,7 +13,7 @@
 *   UFSM - 2019
 **/
 
-const int RAIO = 25;
+const int RAIO = 6;
 const int DOTS = 50;
 
 float mouse_x, mouse_y;
@@ -40,8 +40,22 @@ void set_balls(Ball *balls, int tam){
         balls[i].y = temp_y;
         set_colors(balls, i, ball1, ball2, ball3);
         balls[i].movement = 1;
-        balls[i].dir[0] = 1;
-        balls[i].dir[1] = 0;
+        if(i % 4 == 0){
+            balls[i].dir[0] = 1;
+            balls[i].dir[1] = 0;
+        }
+        else if(i % 4 == 1){
+            balls[i].dir[0] = 0;
+            balls[i].dir[1] = 1;
+        }
+        else if(i % 4 == 2){
+            balls[i].dir[0] = -1;
+            balls[i].dir[1] = 0;
+        }
+        else{
+            balls[i].dir[0] = 0;
+            balls[i].dir[1] = -1;
+        }
     }
 }
 
@@ -166,8 +180,8 @@ void change_dir(Ball *balls, int a, int b){
     float norma_vermelho = sqrt(dir_x_vermelho*dir_x_vermelho+ dir_y_vermelho*dir_y_vermelho);
     float dir_x_vermelho_norm = dir_x_vermelho / norma_vermelho;
     float dir_y_vermelho_norm = dir_y_vermelho / norma_vermelho;
-    float dir_x_azul = balls[a].x - balls[a].last[0][3];
-    float dir_y_azul = balls[a].y - balls[a].last[1][3];
+    float dir_x_azul = balls[a].dir[0];
+    float dir_y_azul = balls[a].dir[1];
     float norma_azul = sqrt(dir_x_azul*dir_x_azul+ dir_y_azul*dir_y_azul);
     float dir_x_azul_norm = dir_x_azul / norma_azul;
     float dir_y_azul_norm = dir_y_azul / norma_azul;
